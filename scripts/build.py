@@ -14,17 +14,24 @@ import os
 from pathlib import Path
 from datetime import datetime, UTC
 
-INPUT_DIR = Path("docs")
-OUTPUT_DIR = Path("output")
-OUTPUT_DIR.mkdir(exist_ok=True)
-
-RELEASE_TAG = os.getenv("GITHUB_REF_NAME", "dev")
-BUILD_DATE = datetime.now(UTC).strftime("%Y-%m-%d")
-
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
+
+INPUT_DIR = Path("docs")
+OUTPUT_DIR = Path("output")
+OUTPUT_DIR.mkdir(exist_ok=True)
+
+logger.info("Input dir: %s", INPUT_DIR)
+logger.info("Output dir: %s", OUTPUT_DIR)
+
+RELEASE_TAG = os.getenv("GITHUB_REF_NAME", "dev")
+BUILD_DATE = datetime.now(UTC).strftime("%Y-%m-%d")
+
+logger.info("Release tag: %s", RELEASE_TAG)
+logger.info("Build date: %s", BUILD_DATE)
+
 logger = logging.getLogger(__name__)
 
 docs = [
@@ -78,7 +85,7 @@ for doc in docs:
           <style>
             @page {{
                @bottom-center {{
-                  content: "Version {{VERSION}} — Generated {{DATE}}";
+                  content: "Version {{RELEASE_TAG}} — Generated {{BUILD_DATE}}";
                   font-size: 9pt;
                   color: #555;
                }}
