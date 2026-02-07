@@ -82,6 +82,24 @@ for doc in docs:
         <head>
           <meta charset="utf-8">
           <style>
+            @font-face {{
+              font-family: "Nimbus Sans";
+              src: url("assets/fonts/nimbus-sans/NimbusSanL-Reg.otf");
+            }}
+            @font-face {{
+              font-family: "Nimbus Sans";
+              src: url("assets/fonts/nimbus-sans/NimbusSanL-Bol.otf");
+              font-weight: bold;
+            }}
+            @font-face {{
+              font-family: "Nimbus Sans";
+              src: url("assets/fonts/nimbus-sans/NimbusSanL-RegIta.otf");
+              font-style: italic;
+            }}
+            body {{
+              font-family: "Nimbus Sans";
+              font-size: 11pt;
+            }}
             @page {{
                @bottom-center {{
                   content: "Version {RELEASE_TAG} — Generated {BUILD_DATE}";
@@ -96,7 +114,7 @@ for doc in docs:
         {html_body}
         </body>
         </html>
-        """).write_pdf(outputwithpath)
+        """,base_url=str(Path(".").resolve())).write_pdf(outputwithpath)
     else:
         logger.error(f"Invalid file {sourcewithpath}")
         continue
