@@ -18,6 +18,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
+logger = logging.getLogger(__name__)
 
 INPUT_DIR = Path("docs")
 OUTPUT_DIR = Path("output")
@@ -31,8 +32,6 @@ BUILD_DATE = datetime.now(UTC).strftime("%Y-%m-%d")
 
 logger.info("Release tag: %s", RELEASE_TAG)
 logger.info("Build date: %s", BUILD_DATE)
-
-logger = logging.getLogger(__name__)
 
 docs = [
         {'input': 'brand_guidelines.pdf', 'output': 'Zowe.Conformance.Program.-.Brand.Guidelines.pdf'},
@@ -85,7 +84,7 @@ for doc in docs:
           <style>
             @page {{
                @bottom-center {{
-                  content: "Version {{RELEASE_TAG}} — Generated {{BUILD_DATE}}";
+                  content: "Version {RELEASE_TAG} — Generated {BUILD_DATE}";
                   font-size: 9pt;
                   color: #555;
                }}
