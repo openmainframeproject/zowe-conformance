@@ -104,6 +104,7 @@ for doc in docs:
                @bottom-center {{
                   content: "Version {RELEASE_TAG} — Generated {BUILD_DATE}";
                   font-size: 9pt;
+                  font-family: "Nimbus Sans";
                   color: #555;
                }}
             }}
