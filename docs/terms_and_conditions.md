@@ -1,24 +1,6 @@
 # Zowe Conformance Program Terms and Conditions
 
-- [Definitions](#definitions)
-- [Related Documents](#related-documents)
-- [Introduction](#introduction)
-    - [Participant Requirements](#participant-requirements)
-- [Process](#process)
-    - [1. Identify Offerings](#1-identify-offerings)
-    - [2. Apply](#2-apply)
-    - [3. Test](#3-test)
-    - [4. Submit test results](#4-submit-test-results)
-    - [5. Successful review](#5-successful-review)
-    - [6. Ongoing conformance](#6-ongoing-conformance)
-- [Use of the Conformance Marks](#use-of-the-conformance-marks)
-- [Participant Marks](#participant-marks)
-- [Term and Termination](#term-and-termination)
-- [Disclaimer of Warranties](#disclaimer-of-warranties)
-- [Limitation of Liability](#limitation-of-liability)
-- [Indemnification](#indemnification)
-- [Entire Agreement; Modifications](#entire-agreement-modifications)
-- [Miscellaneous](#miscellaneous)
+[TOC]
 
 ## Definitions
 
@@ -50,12 +32,12 @@ To achieve these objectives, The Linux Foundation requires that third parties wh
 
 In order to be a Participant in the Conformance Program and to use the Conformant Marks, a Participant must do the following:
 
-1.  [**Identify Offerings**](#1-identify-offerings): determine those of its goods and services with which it intends to use the Conformance Marks
-2.  [**Apply**](#2-apply): submit a signed participation form to The Linux Foundation
-3.  [**Test**](#3-test): perform the tests specified in the Test Evaluation Guide on its designated goods and services
-4.  [**Submit Test Results**](#4-submit-test-results): submit the results of tests (or, in the absence of a testing evaluation program, confirmations of conformance) to The Linux Foundation for review and verification
-5.  [**Successful Review**](#5-successful-review): receive from The Linux Foundation confirmation that the test results have successfully passed or otherwise been accepted and the Qualifying Offerings are acknowledged as conformant.
-6.  [**Ongoing Conformance**](#6-ongoing-conformance): continue to abide by the terms and conditions of the Conformance Program throughout the period of the Participant's use of the Conformance Marks, including without limitation the specific requirements described below.
+1.  [**Identify Offerings**](#identify-offerings): determine those of its goods and services with which it intends to use the Conformance Marks
+2.  [**Apply**](#apply): submit a signed participation form to The Linux Foundation
+3.  [**Test**](#test): perform the tests specified in the Test Evaluation Guide on its designated goods and services
+4.  [**Submit Test Results**](#submit-test-results): submit the results of tests (or, in the absence of a testing evaluation program, confirmations of conformance) to The Linux Foundation for review and verification
+5.  [**Successful Review**](#successful-review): receive from The Linux Foundation confirmation that the test results have successfully passed or otherwise been accepted and the Qualifying Offerings are acknowledged as conformant.
+6.  [**Ongoing Conformance**](#ongoing-conformance): continue to abide by the terms and conditions of the Conformance Program throughout the period of the Participant's use of the Conformance Marks, including without limitation the specific requirements described below.
 
 Some forms of conformance adopted by the project may consist of demonstrating conformance by the Participant itself, regarding the Participant's own capabilities and processes -- rather than the functionality of the Participant's goods and services. These forms of conformance are referred to herein as "Participant Conformance". With regards to Participant Conformance, references to Qualifying Offerings and demonstrating conformance of goods and services in the requirements below shall instead be deemed to refer to demonstrating conformance of the Participant's own capabilities and processes, as set forth in the applicable parts of the Test Evaluation Guide.
 
@@ -63,27 +45,27 @@ Members of Open Mainframe Project will not be charged fees to participate in the
 
 ## Process
 
-### 1. Identify Offerings
+### 1. Identify Offerings {#identify-offerings}
 
 The Participant should identify those of its goods and services, including specific version(s), with which it desires to use the Conformance Marks. These are the goods and services that will be subject to testing. The Participant should also determine the version(s) of the Zowe testing evaluation criteria that it intends to test against. Goods and services which have not previously been Qualifying Offerings must be tested against the most recent version of the Zowe testing evaluation criteria released by the Zowe project. If the evaluation criteria are successfully satisfied, and if the Participant fulfills the other requirements for the Conformance Program, then these goods and services are considered "Qualifying Offerings."
 
-### 2. Apply
+### 2. Apply {#apply}
 
 The Participant must submit a completed and signed Participation Form to The Linux Foundation via electronic signature at the Participation Form URL listed above or by any other method made available by The Linux Foundation. The Participation Form must designate the specific Qualifying Offering(s) that will be tested and include any other information requested on the Participation Form.
 
-### 3. Test
+### 3. Test {#test}
 
 The Test Evaluation Guide contains details about the self-testing process and the specific tests that must be passed and criteria that must be satisfied for a Participant's offering to be considered a Qualifying Offering. A Participant confirms that its goods and services are Qualifying Offerings by demonstrating that its offerings have successfully passed all of the tests and satisfied all of the criteria set forth in the Test Evaluation Guide. If the Zowe project makes available a testing evaluation program for the Conformance Program, then Participants must use the testing evaluation program to determine whether the tests are passed or failed. If the Zowe project has not made a testing evaluation program available, then the Participant should evaluate each of its potential Qualifying Offerings in accordance with the criteria set forth in the Test Evaluation Guide. 
 
-### 4. Submit Test Results
+### 4. Submit Test Results {#submit-test-results}
 
 After passing the designated tests and satisfying the applicable criteria, a Participant must submit to The Linux Foundation a copy of the testing results generated by the testing evaluation program. If the Zowe project has not made a testing evaluation program available, then for each potential Qualifying Offering, the Participant must affirm its conformance as set forth on the Participation Form or other system of record made available by The Linux Foundation. These results may be made available to the public on the Zowe project website or other public repository if Participant makes public use of the Conformance Marks. However, if the Participant decides not to proceed with any such public use following submission of testing results to The Linux Foundation, then upon Participant's written request to The Linux Foundation the test results will not be publicly disclosed, subject to sharing of test results with members of the Zowe project community as described in Section 5 below.
 
-### 5. Successful Review
+### 5. Successful Review {#successful-review}
 
 If The Linux Foundation confirms to the Participant that the tests have been successfully passed and that the criteria in the Test Evaluation Guide have been satisfied, and if the other requirements for participant in the conformance program have been met, then the Participant may use the Program Marks with its Qualifying Offerings, subject to the usage requirements described below in the section entitled "Use of the Conformance Marks." The Linux Foundation may share test results with members of the Zowe project community if The Linux Foundation deems it necessary and appropriate in connection with confirming that the tests have been passed or failed and that the criteria in the Test Evaluation Guide have been satisfied.
 
-### 6. Ongoing Conformance
+### 6. Ongoing Conformance {#ongoing-conformance}
 
 The participant must continue to abide by the terms and conditions of the Conformance Program throughout the period of the Participant's use of the Program Marks. This includes all of the terms set forth in this agreement, including without limitation the following specific requirements:
 

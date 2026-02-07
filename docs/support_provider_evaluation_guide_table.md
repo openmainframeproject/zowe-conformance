@@ -4,18 +4,7 @@ Zowe Support Provider Conformance Guide is a set of self-certifying and self-ser
 
 This guide describes the requirements of the support conformance program. All Applicants complete sections in the **Core** section. Items marked **(best practice)** are considered best practices.
 
-- [Zowe Support Provider Conformance Guide](#zowe-support-provider-conformance-guide)
-  - [Zowe Support Core Section](#zowe-support-core-section)
-    - [Zowe Binaries](#zowe-binaries)
-    - [Zowe Security](#zowe-security)
-    - [Zowe Fix Strategy](#zowe-fix-strategy)
-  - [Zowe Support Components Section](#zowe-support-components-section)
-    - [Zowe Component Requirements: API Mediation Layer](#zowe-component-requirements-api-mediation-layer)
-    - [Zowe Component Requirements: App Framework](#zowe-component-requirements-app-framework)
-    - [Zowe Component Requirements: Command Line Interface](#zowe-component-requirements-command-line-interface)
-    - [Zowe Component Requirements: Explorer (VS Code)](#zowe-component-requirements-explorer-vs-code)
-    - [Zowe Component Requirements: Explorer (IntelliJ)](#zowe-component-requirements-explorer-intellij)
-    - [Zowe Component Requirements: Client SDK (Node.js)](#zowe-component-requirements-client-sdk-nodejs)
+[TOC]
 
 ## Zowe Support Core Section
 
